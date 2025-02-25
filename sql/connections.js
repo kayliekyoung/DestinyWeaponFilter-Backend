@@ -11,6 +11,7 @@ class Connection {
         user: process.env.DB_USER,
         password: process.env.PW,
         database: process.env.DB,
+        port: process.env.PORT
       });
 
       return this.pool;

@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 app.use(routes);
 
-const port = process.env.PORT||3306;
+const port = process.env.PORT||3301;
 
 app.get("/", (req, res) => {
     res.json("Server test");
